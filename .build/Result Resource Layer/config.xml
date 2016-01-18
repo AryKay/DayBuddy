@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://www.daybuddy.tk" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="Ya1bJ0XMhU.DayBuddyGear" package="Ya1bJ0XMhU" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://developer.samsung.com/tizen/feature/network.accessory_protocol"/>
+    <icon src="daybuddy_logo1.png" height="542" width="566"/>
+    <tizen:metadata key="AccessoryServicesLocation" value="accessoryservices.xml"/>
+    <name>DayBuddy</name>
+    <tizen:privilege name="http://developer.samsung.com/privilege/accessoryprotocol"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+
+</widget>

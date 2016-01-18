@@ -1,0 +1,131 @@
+
+body {
+    margin: 0 auto;
+    background: url ("img/background.jpg");
+    background-size: cover;
+    
+}
+
+@font-face {
+    font-family: Roboto;
+    src: "css/fonts";
+}
+
+div {
+	height: 100%;
+    width: 100%;
+	margin: 0 auto;
+}
+
+
+.main {
+	background-color: #000000;
+}
+
+.main2 {
+	position: relative;
+	background-color: #000000;
+	width: 320px;
+	height: 320px;
+}
+
+.contents {
+	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+	background: url ("img/background.jpg");
+    background-size: cover;
+	
+	
+}
+/* Wrapping .circle  */
+
+canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+ 
+
+.content_name {
+	position: absolute;
+	font-size:27pt;
+	color:#ffffff;
+	text-align: center;
+	margin: 76px 35px -13px 35px;
+	width: 250px;
+	 
+}
+
+.content_place{
+	position: absolute;
+	font-size:27pt;
+	text-transform: uppercase;
+	color:rgba(239, 131, 51, 1);
+	text-align: center;
+	margin: 100px 20px 0 20px;
+	width: 280px;
+}
+
+.content_time{
+	position: absolute;
+	font-size:24pt;
+	color:#ffffff;
+	text-align: center;
+	margin: 174px 0 0 0;
+	
+}
+/*****************************************************
+ * generic styling for ALS elements: outer container
+ ******************************************************/
+
+.als-container {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+/****************************************
+ * viewport styling
+ ***************************************/
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+}
+
+/***************************************************
+ * wrapper styling
+ **************************************************/
+
+.als-wrapper {
+	position: relative;
+	/* if you are using a list with <ul> <li> */
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*************************************
+ * item: single list element
+ ************************************/
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	z-index: 1;
+}
+
+/***********************************************
+ * prev, next: buttons styling
+ **********************************************/
+ 
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
